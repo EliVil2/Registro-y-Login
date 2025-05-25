@@ -18,4 +18,4 @@ document.getElementById("login-form").addEventListener("submit",async (e)=>{
     if(resJson.redirect){
         window.location.href = resJson.redirect;
     }
-})
+});

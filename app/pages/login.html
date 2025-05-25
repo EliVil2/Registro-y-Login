@@ -8,7 +8,9 @@
     <script src="login.js" defer></script>
 </head>
 <body>
+    <!-- -->
     <main>
+        <div class="main-container">
         <div class="form-container">
             <h1>Iniciar sesión</h1>
             <p>Ingresa tus credenciales para acceder al área de administración.</p>
@@ -16,11 +18,17 @@
                 <label for="user" class="sr-only">User</label>
                 <input type="text" name="user" id="user" placeholder="Nombre de usuario">
                 <label for="password" class="sr-only">Password</label>
-                <input type="text" name="password" id="password" placeholder="Contraseña">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
                 <button type="submit">Iniciar sesión</button>
                 <p class="error escondido">Error al iniciar sesión</p>
             </form>
             <p>¿Todavía no tienes una cuenta? - <a href="/register">Registrate</a></p>
+        </div>
+        <div class="map-container">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37261.62069959662!2d-74.82617077833142!3d10.990114668082008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0e6b21ba49%3A0x425b4a093600da3f!2sCentro%20Comercial%20%C3%9Anico%20Outlet!5e0!3m2!1ses!2sco!4v1748128144458!5m2!1ses!2sco">
+            </iframe>
+        </div>
         </div>
     </main>
 </body>
